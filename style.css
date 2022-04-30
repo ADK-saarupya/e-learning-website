@@ -1,0 +1,218 @@
+
+    *{
+      margin: 0;
+      padding: 0;
+      font-family:sans-serif;
+    }
+    .header{
+      min-height: 100vh;
+      width: 100%;
+      background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(bgimg.jpg);
+      background-size:cover ;
+      position: relative;
+    }
+    nav{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      
+    }
+    .nav{
+      text-align: right;
+    }
+    .nav ul li{
+      list-style: none;
+      display: inline-block;
+      padding: 8px 12px;
+
+    }
+    .nav ul li a{
+      color: white;
+      text-decoration: none;
+      font-size: 15px;
+    }
+    .nav ul li::after{
+      content: "";
+      width: 0%;
+      height: 2px;
+      background: purple;
+      display: block;
+      transition: 0.5s;
+
+    }
+    .nav ul li:hover::after{
+      width: 100%;
+    
+    }
+    .textbox{
+      width: 90%;
+      color: white;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      text-align: center;
+
+    }
+    .textbox h1{
+      font-size: 62px;
+    }
+    .textbox p{
+      margin: 10px 0 40px;
+      font-size: 15px;
+      
+
+    }
+    .btn{
+      text-decoration: none;
+      color: white;
+      border: 1px solid white;
+      padding: 12px 34px;
+      cursor: pointer;
+     
+    }
+    .btn:hover{
+      border:1px solid purple;
+      background:purple;
+      transition:1s;
+    }
+
+    /* Style for tutorials.html*/
+    .subheader1{
+        height: 50vh;
+        width: 100%;
+        background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(bgimg.jpg);
+        background-position: center;
+        background-size: contain;
+        text-align: center;
+        color: white;
+        font-size: 30px;
+    }
+    .subheader1 h1{
+        margin-top: 100px;
+    }
+    .htmltut{
+        width: 80%;
+        margin: auto;
+        
+      
+    }
+    .row{
+        margin-top: 5%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .row1{
+        flex-basis: 50%;
+        padding: 30px 2px;
+        
+
+    }
+    .row1 h1{
+        color: purple;
+    }
+    p{
+        color: #777;
+    }
+    .btn2{
+        text-decoration: none;
+        color: purple;
+        border: 1px solid purple;
+        padding: 12px 34px;
+        cursor: pointer;
+        
+       
+      }
+      .btn2:hover{
+        border:1px solid purple;
+        background:purple;
+        color: white;
+        transition:1s;
+      }
+      .csstut{
+        width: 80%;
+        margin: auto;
+        
+      
+    }
+    .jstut{
+      width: 80%;
+      margin: auto;
+      
+    
+  }
+  i{
+    color:purple;
+  }
+  h4{
+    color: purple;
+    
+  }
+
+  .introduction{
+    width:90%;
+    margin:auto;
+    margin-top: 2%;
+    margin-bottom: 5%;
+  }
+  .introduction li{
+    color:#777;
+  }
+ span{
+    color: blue;
+  }
+  .example{
+    border:1px solid purple;
+  }
+  .example h4{
+    color:black;
+  }
+  .eg{
+    color:green;
+  }
+  .output{
+    color:green;
+  }
+  .tables{
+    display: flex;
+    
+  }
+  .goback{
+    position:fixed;
+    text-decoration: none;
+    color: purple;
+    border: 1px solid purple;
+    cursor: pointer;
+    right:10px;
+    bottom: 40px;
+  }
+  .goback:hover{
+    border:1px solid purple;
+        background:purple;
+        color: white;
+        transition:1s;
+
+  }
+  .aqua{
+    width: 100px;
+  height: 100px;
+  background: red;
+  transition: width 2s;
+}
+
+.aqua:hover {
+  width: 300px;
+}
+footer{
+  background-color: rgb(46, 46, 131);
+  width: 100%;
+  background-size:100px ;
+  color: white;
+  
+  text-align: center;
+}
+
+
+    
+  

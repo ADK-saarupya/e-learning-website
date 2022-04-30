@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Let's Learn</title>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  
+  <section class="subheader1">
+    
+    <nav>
+
+      <img src="logo.png" height="80px" width="100px">
+
+
+      <div class="nav">
+        <ul>
+          <li><a href="index.html">HOME</a></li>
+          <li><a href="tutorials.html">TUTORIALS</a></li>
+          <li><a href="about.html">ABOUT US</a></li>
+        </ul>
+      </div>
+    </nav>
+    <h1>HTML</h1>
+  </section>
+  <a class="goback" href="tutorials.html">Go Back</a>
+  <section class="introduction">
+
+    <h4>What is HTML?</h4>
+    <p>Hyper Text Markup Language(HTML) is the standard markup language for creating webpages and describes the
+      structure of webpage.</p><br>
+    <h4>A Simple HTML document:</h4>
+    <img src="htmlstrc.png">
+
+
+    <ul>
+      <li>The <span>&lt;!DOCTYPE html&gt;</span> declaration defines that this document is an HTML5 document</li>
+      <li>The <span>&lt;html&gt;</span> &62 element is the root element of an HTML page</li>
+      <li>The <span>&lt;head&gt;</span> element contains meta information about the HTML page</li>
+      <li>The <span>&lt;title&gt;</span> element specifies a title for the HTML page (which is shown in the browser's
+        title bar or in the page's tab)</li>
+      <li>The <span>&lt;body&gt;</span> element defines the document's body, and is a container for all the visible
+        contents, such as headings, paragraphs, images, hyperlinks, tables, lists, etc.</li>
+      <li>The <span>&lt;h2&gt;</span> element defines a heading</li>
+      <li>The <span>&lt;p&gt;</span> element defines a paragraph</li>
+
+    </ul><br>
+    <h4>HTML Elements</h4>
+    <p>The HTML element is everything from the start tag to the end tag;<br>
+      <span> &lt;tagname&gt;</span> Contents...<span>&lt;/tagname&gt;</span>
+    </p><br>
+    <h4>HTML Tags</h4>
+    <p>An HTML tag is commonly defined as a set of characters constituting a formatted command for a Web page. At the
+      core of HTML, tags provide the directions or recipes for the visual content that one sees on the Web.</p><br>
+    <h4>Different HTML Tags</h4>
+    <ul>
+      <li><span>&lt;h1&gt;</span></li>
+      <li><span>&lt;pre&gt;</span></li>
+      <li><span>&lt;header&gt;</span></li>
+      <li><span>&lt;main&gt;</span></li>
+      <li><span>&lt;footer&gt;</span></li>
+      <li><span>&lt;table&gt;</span></li>
+      <li><span>&lt;form&gt;</span></li>
+    </ul>
+    <br>
+    <h4>HTML Headings</h4>
+    <p>HTML headings are titles that is displayed in the webpages.</p>
+    <div class="example">
+      <span class="eg">Example</span>
+      <hr>
+      <h1>HTML</h1>
+      <h2>HTML</h2>
+      <h3>HTML</h3>
+      <h4>HTML</h4>
+      <h5>HTML</h5>
+      <h6>HTML</h6>
+    </div>
+    <pre>
+            <span class="output">Code for above output:</span>
+            &lt;h1&gt;HTML&lt;/h1&gt;
+            &lt;h2&gt;HTML&lt;/h2&gt;
+            &lt;h3&gt;HTML&lt;/h3&gt;
+            &lt;h4&gt;HTML&lt;/h4&gt;
+            &lt;h5&gt;HTML&lt;/h5&gt;
+            &lt;h6&gt;HTML&lt;/h6&gt;
+          </pre>
+    <br>
+    <h4>HTML Paragraphs</h4>
+    <p>The HTML <span>&lt;p&gt;</span> element defines a paragraph.</p>
+    <div class="example">
+      <span class="eg">Example</span>
+      <hr>
+      <span>&lt;p&gt;</span>This is a first paragraph.<span>&lt;/p&gt;</span><br>
+      <span>&lt;p&gt;</span>This is a second Paragraph.<span>&lt;/p&gt;</span><br>
+      <span>&lt;p&gt;</span>This is a third paragraph.<span>&lt;/p&gt;</span><br>
+    </div>
+    <pre>
+         <span class="output"> Output:</span>
+          This is a first paragraph.
+          This is a second Paragraph.
+          This is a third Paragraph.
+        </pre>
+    <br>
+    <h4>HTML Links</h4>
+    <p>Links are found in nearly all web pages. Links allow users to click their way from page to page.HTML links are
+      hyperlinks. You can click on a link and jump to another document. When you move the mouse over a link, the mouse
+      arrow will turn into a little hand. A link does not have to be text. A link can be an image or any other HTML
+      element!</p>
+    <div class="example">
+      <span class="eg">Syntax:</span>
+      <hr>
+      <span>&lt;a href="url"&gt;</span>link text<span>&lt;/a&gt;</span>
+
+    </div><br>
+    <h4>HTML Images</h4>
+    <p>The <span>&lt;img&gt;</span> tag is used to insert image in a document.</p>
+    <div class="example">
+      <span class="eg">Examples:</span>
+      <hr>
+      <span>&lt;img src="pic_trulli.jpg" alt="Italian Trulii"&gt;</span><br>
+      <span>&lt;img src="img _girl.jpg" alt="Girl in a jacket"&gt;</span><br>
+      <span>&lt;img src="img_chania.jpg" alt="Flowers in Chania"&gt;</span>
+
+      
+    </div>
+    <span class="output">Output:</span><br>
+    <img src="trulii.jpg" height="200px" width="350px">
+    <img src="jacket.jpg"height="200px" width="350px">
+    <img src="chania.jpg" height="200px" width="350px">
+    <br><br>
+    <h4>HTML Tables</h4>
+    <p>HTML tables is used to arrange row and columns in a systematic way.</p>
+    <div class="example">
+      <span class="eg">Examples:</span>
+      <hr>
+      <img src="table.png">
+      <img src="table2.png">
+
+    </div>
+    <span class="output">Output:</span>
+    <div class="tables">
+    <table border> 
+      <tr>
+      <th>Name</th>
+      <th>Blood Group</th>
+      <th>Age</th>
+  </tr>
+  <tr>
+      <td>Ram Acharya</td>
+      <td>O positive</td>
+      <td>14</td>
+  </tr>
+  <tr>
+      <td>Sita Jha</td>
+      <td>AB positive</td>
+      <td>32</td>
+  </tr>
+   <tr>
+      <td>Ramita Thapa</td>
+      <td>O negative</td>
+      <td>56</td>
+  </tr>
+</table>
+
+<table border>
+  <tr>
+    <th rowspan="2">Station</th>
+    <th colspan="2">Temperature</th>
+    <th rowspan="2">Humidity</th>
+    <th rowspan="2">Wheather</th>
+</tr>
+<tr>
+    <th>Max</th>
+    <th>Min</th>
+</tr>
+<tr>
+    <td>Phulchowki</td>
+    <td>21</td>
+    <td>9</td>
+    <td>50%</td>
+    <td>Cloudy</td>
+</tr>
+<tr>
+    <td>Kalinchowk</td>
+    <td>3</td>
+    <td>-1</td>
+    <td>70%</td>
+    <td>snow</td>
+</tr>
+
+</table>
+</div>
+<br>
+<h4>HTML List</h4>
+<p>HTML lists allow web developers to group a set of related items in lists. There are two types of HTML lists:Ordered list and Unordered List.</p>
+<div class="example">
+  <span class="eg">Examples:</span>
+  <hr>
+  <img src="list.png">
+  
+</div>
+<span class="output">Output:</span>
+<hr>
+
+<img src="listresult.png">
+<br>
+        <hr>
+        <hr>
+        <br>
+        <h4>HTML PRACTICE QUESTIONS</h4>
+        <ul>
+          <li>How to write bold text using HTML tags?</li><br>
+          <li>Create a table given below:<br><img src="complextable.png"></li>
+          <li>Create a list given below:<br><img src="complexlist.png"></li>
+        </ul>
+</section>
+<footer>
+  copyright &copy; 2022. All Rights Reserved.<br>
+  Design & Developed by XYZ group.
+</footer>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
